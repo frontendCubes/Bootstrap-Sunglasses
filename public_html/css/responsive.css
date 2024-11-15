@@ -1,0 +1,103 @@
+
+@media(min-width:576px){
+ /*sm*/
+    .products .product-slider .owl-nav .owl-prev{
+    left: -20px;
+}
+.products .product-slider .owl-nav .owl-next{
+    right: -20px;
+}
+}
+
+@media(min-width:768px){
+ /*md*/
+    
+}
+
+@media(min-width:992px){
+ /*lg*/
+ 
+ .section-title{
+    font-size: 56px;
+    line-height: 60px;
+}
+ 
+ header .navbar{
+     padding: 27px 0;
+ }
+ 
+ header .navbar-brand{
+     max-width: 230px;
+ }
+  header .navbar-nav .nav-item{
+    margin-left: 29px;
+}
+ header .navbar-nav .nav-link{
+    border-bottom:none;
+}
+
+header .navbar-nav .nav-link.active,
+header .navbar-nav .nav-link:hover{
+    background: transparent;
+    color:#000;
+    border-bottom: 1px solid #000;
+}
+
+
+.hero{
+    background-position: right bottom;
+
+    
+}
+.hero .row{
+   min-height: calc(100vh - 94px);
+}
+
+.hero .hero-title{
+    background-color: transparent;
+    font-size: 80px;
+    line-height: 85px;
+}
+
+.about{
+    padding: 181px 0 !important;
+}
+
+.services{
+    padding: 96px 0 !important;
+}
+
+.achievements{
+    padding: 166px 0 !important;
+}
+.achievements .achievement-item .achievement-item-number{
+    font-size: 70px;
+    line-height: 74px;
+}
+
+.products{
+    padding: 98px 0 !important;
+}
+
+.contact{
+    padding: 96px 0 !important;
+}
+
+footer {
+    padding: 63px 0 !important;
+}
+    
+}
+@media(min-width:1200px){
+ /*xl*/
+    
+}
+
+@media(min-width:1400px){
+ /*xxl*/
+    
+ 
+ .container{
+     max-width: 1116px;
+ }
+}
